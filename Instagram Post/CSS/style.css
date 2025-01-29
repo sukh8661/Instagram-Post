@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
     margin: 0;
@@ -7,16 +7,34 @@
     font-family: "Inter", sans-serif;
 }
 
-html, body{
+html,
+body {
     height: 100%;
     width: 100%;
-    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    background: radial-gradient(circle farthest-corner at 35% 90%,
+            #fec564,
+            transparent 50%),
+        radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 20% -50%,
+            #5258cf,
+            transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 60% -20%,
+            #893dc2,
+            transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+        linear-gradient(#6559ca,
+            #bc318f 30%,
+            #e33f5f 50%,
+            #f77638 70%,
+            #fec66d 100%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#container{
+#container {
     height: 650px;
     width: 480px;
     background-color: white;
@@ -27,7 +45,7 @@ html, body{
     transform-origin: center;
 }
 
-#container #img{
+#container #img {
     margin: 15px;
     margin-bottom: 0px;
     height: 430px;
@@ -37,7 +55,7 @@ html, body{
     border-radius: 10px;
 }
 
-#heading{
+#heading {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -46,7 +64,7 @@ html, body{
     gap: 10px;
 }
 
-#dp{
+#dp {
     height: 45px;
     width: 45px;
     border-radius: 50%;
@@ -54,20 +72,20 @@ html, body{
     overflow: hidden;
 }
 
-#dp>img{
+#dp>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-#dots{
+#dots {
     margin-left: auto;
     margin-right: 10px;
     font-size: 25px;
 }
 
-#container #like{
+#container #like {
     color: white;
     font-size: 75px;
     top: 50%;
@@ -78,7 +96,7 @@ html, body{
     text-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
 
-#description-icons{
+#description-icons {
     background-color: white;
     display: flex;
     justify-content: flex-start;
@@ -89,41 +107,41 @@ html, body{
     gap: 5px;
 }
 
-#description-icons i{
+#description-icons i {
     font-size: 30px;
 }
 
-#save{
+#save {
     margin-left: auto;
     margin-right: 10px;
 }
 
-#description{
+#description {
     padding: 15px;
     padding-top: 5px;
 }
 
-#des1{
+#des1 {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 5px;
 }
 
-#caption{
+#caption {
     margin-left: 7px;
     color: #000;
     padding-top: 1px;
 }
 
-#comm{
+#comm {
     padding-bottom: 5px;
     font-weight: 600;
 }
 
-#des2{
+#des2 {
     color: #a5a5a5;
 }
 
-h3{
+h3 {
     font-weight: 600;
 }
